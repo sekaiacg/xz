@@ -288,6 +288,9 @@ add_library(liblzma
     src/liblzma/common/stream_decoder.h
     src/liblzma/common/stream_encoder.c
     src/liblzma/common/stream_encoder_mt.c
+    src/liblzma/common/stream_decoder_mt.c
+    src/liblzma/common/microlzma_decoder.c
+    src/liblzma/common/microlzma_encoder.c
     src/liblzma/common/stream_flags_common.c
     src/liblzma/common/stream_flags_common.h
     src/liblzma/common/stream_flags_decoder.c
